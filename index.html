@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js" defer></script>
+</head>
+<body id="container">
+    <header id="header">
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main id="game">
+        <section id="winner_announcement" class="hidden">
+            <div id="content">
+                <div id="winner_name"></div>
+                <button class="reset-button">Reset</button>
+            </div>
+        </section>
+        <section id="board">
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan ="3" id="player_name">Player 1's Turn</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cell" id="1"></td>
+                        <td class="cell" id="2"></td>
+                        <td class="cell" id="3"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" id="4"></td>
+                        <td class="cell" id="5"></td>
+                        <td class="cell" id="6"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" id="7"></td>
+                        <td class="cell" id="8"></td>
+                        <td class="cell" id="9"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="reset">
+            <button class="reset-button">Reset</button>
+        </div>
+    </main>
+</body>
+</html>
